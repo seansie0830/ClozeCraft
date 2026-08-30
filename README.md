@@ -1,7 +1,8 @@
 # 克漏字與填空測驗卷產生器 (Cloze & Blank-Filling Worksheet Generator)
 
 A React + TypeScript + Vite + Tailwind CSS single page application with React Router for generating print-ready cloze & blank-filling worksheets with LLM auto-import and Traditional Chinese (繁體中文) support.
-
+# ⚡ link
+(https://28f950f6.clozecraft.pages.dev/)[https://28f950f6.clozecraft.pages.dev/]
 ## ✨ Features
 
 - 🖨️ **Print-First Layout (A4 Optimized)**: Designed specifically for classroom printing with clean underlines/boxes, student header (Name, Date, Class, Score), and optional separate Answer Key page.
