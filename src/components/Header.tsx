@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useWorksheet } from '../context/WorksheetContext';
 import { getTranslation } from '../i18n/translations';
-import { Printer, FileText, Code2, Globe, Sparkles, CheckCircle2, FileEdit } from 'lucide-react';
+import { Printer, FileText, Globe, Sparkles, CheckCircle2, FileEdit } from 'lucide-react';
 
 export const Header: React.FC = () => {
   const { uiLang, setUiLang } = useWorksheet();
@@ -12,7 +12,6 @@ export const Header: React.FC = () => {
     { path: '/', label: getTranslation(uiLang, 'navWorksheet'), icon: FileText },
     { path: '/practice', label: getTranslation(uiLang, 'navInteractive'), icon: CheckCircle2 },
     { path: '/import', label: getTranslation(uiLang, 'navImport'), icon: Sparkles },
-    { path: '/schema', label: getTranslation(uiLang, 'navSchema'), icon: Code2 },
   ];
 
   return (
@@ -66,10 +65,11 @@ export const Header: React.FC = () => {
 
             <button
               onClick={() => window.print()}
-              className="flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg bg-indigo-600 text-white text-xs font-semibold hover:bg-indigo-700 shadow-sm transition-colors active:scale-95 cursor-pointer"
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-gray-300 text-xs font-medium text-gray-700 hover:bg-gray-50 transition-colors"
+              title="Print"
             >
-              <Printer className="w-3.5 h-3.5" />
-              <span>{getTranslation(uiLang, 'printButton')}</span>
+              <Printer className="w-3.5 h-3.5 text-gray-500" />
+              <span className="hidden sm:inline-block text-xs">{getTranslation(uiLang, 'printButton')}</span>
             </button>
           </div>
         </div>
