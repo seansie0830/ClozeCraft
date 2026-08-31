@@ -5,7 +5,6 @@ import { Header } from './components/Header';
 import { WorksheetView } from './components/WorksheetView';
 import { InteractiveTest } from './components/InteractiveTest';
 import { ImportView } from './components/ImportView';
-import { SchemaView } from './components/SchemaView';
 
 export const App: React.FC = () => {
   return (
@@ -18,7 +17,6 @@ export const App: React.FC = () => {
               <Route path="/" element={<WorksheetView />} />
               <Route path="/practice" element={<InteractiveTest />} />
               <Route path="/import" element={<ImportView />} />
-              <Route path="/schema" element={<SchemaView />} />
             </Routes>
           </main>
         </div>
