@@ -1,6 +1,7 @@
 # Cloze & Blank-Filling Worksheet Generator
 
 A React + TypeScript + Vite + Tailwind CSS single page application with React Router for generating print-ready cloze & blank-filling worksheets with LLM auto-import and Traditional Chinese (繁體中文) support.
+[繁體中文說明](https://github.com/seansie0830/ClozeCraft/blob/master/README_tw.md)
 # ⚡ link
 <https://7385a338.clozecraft.pages.dev/>
 ## ✨ Features
