@@ -1,4 +1,4 @@
-# 克漏字與填空測驗卷產生器 (Cloze & Blank-Filling Worksheet Generator)
+# Cloze & Blank-Filling Worksheet Generator
 
 A React + TypeScript + Vite + Tailwind CSS single page application with React Router for generating print-ready cloze & blank-filling worksheets with LLM auto-import and Traditional Chinese (繁體中文) support.
 # ⚡ link
